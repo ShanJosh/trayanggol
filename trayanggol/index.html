@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Triangle Type Detector</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Triangle Type Detector</h1>
+    <p>Enter the lengths of the sides of the triangle:</p>
+
+    <label for="sideA">Side A: </label>
+    <input id="sideA" class="side" type="text"><br>
+
+    <label for="sideB">Side B: </label>
+    <input id="sideB" class="side" type="text"><br>
+
+    <label for="sideC">Side C: </label>
+    <input id="sideC" class="side" type="text"><br>
+
+    <button onclick="checkTriangle()">Check Triangle Type</button>
+    <button onclick="resetForm()">Reset</button>
+
+    <p id="result"></p>
+</body>
+</html>
